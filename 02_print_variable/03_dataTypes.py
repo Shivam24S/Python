@@ -60,7 +60,7 @@ print("fruits data types",type(fruits))
 
 # 6.  tuple  =>immutable => can't be changed
 
-vegetables = {"potato","cucumber","garlic","tomato"}
+vegetables = ("potato","cucumber","garlic","tomato")
 
 print("vegetable before",vegetables)
 
@@ -71,3 +71,47 @@ print("vegetable after",vegetables)
 print("vegetable dataTypes",type(vegetables))
 
 
+# 7. set 
+
+# it does not repeat the value
+
+# it is mutable
+
+skills = {"javascript","python","c","c++","nodejs","reactJs","javascript"}
+
+# skills[0]="nextjs"
+
+skills.add("next js")
+
+print("set ",skills)
+
+print("type",type(skills))
+
+
+# 8. dictionary (dict)
+
+person = {
+    "name":"dexter",
+    # "name":"alice",
+    "age":35,
+    "city":"miami"
+}
+
+print("person details",person)
+
+print("type ",type(person))
+
+person["name"]="jason"
+
+print("person updated details",person)
+
+# 9 NoneType 
+
+user=None
+
+print("user value",user)
+
+
+user="lucia"
+
+print("user value",user)
