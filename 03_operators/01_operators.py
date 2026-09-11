@@ -11,14 +11,9 @@
 # 3. Logical Operators
 # 4. Assignment Operators
 # 5. Bitwise Operators
+# 6. Membership Operators
 
 # 1. Arithmetic Operators: examples include + (addition), - (subtraction), * (multiplication), / (division), % (modulus), ** (exponentiation), and // (floor division).
 
 # +,-,*,/,%,**,//
 
-num1 = 10
-num2 = 20
-
-print("Addition:", num1 + num2)   # Addition
-
-print("subtraction",num1-num2)
