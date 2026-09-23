@@ -1,9 +1,8 @@
 
 
 
-
-
 # range(start,stop,step)
+
 
 # end  will be exclude
 
