@@ -10,10 +10,22 @@ for i in range(totalNumbers):
 
     numberList.append(num)
 
+maxNumber = numberList[0]
+minNumber = numberList[0]
 
-maxNumber = max(numberList)
 
-minNumber = min(numberList)
+for num in numberList:
+
+    if num > maxNumber:
+        maxNumber = num
+
+    if num < minNumber:
+        minNumber = num
+
+
+# maxNumber = max(numberList)
+
+# minNumber = min(numberList)
 
 
 print("max number", maxNumber)
